@@ -22,12 +22,12 @@ By default, the ONNXRuntime GenAI packages are in preview and not all of them ar
 <PackageReference Include="Microsoft.ML.OnnxRuntimeGenAI.Managed" Version="0.1.0-rc4" />
 ```
 
-- ## .NET CLI:
+- #### .NET CLI:
 ```
 dotnet nuget add source "https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-genai/nuget/v3/index.json" --name "onnxruntime"
 ```
 
-- ## Visual Studio: 
+- #### Visual Studio: 
 	- Tools/NuGet Package Manager/Package Manager Settings/Sources:
 	- Click +, in the name call whatever you want **onnxruntime** for example
 	- Provide the following value for the source: ``https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-genai/nuget/v3/index.json``
@@ -36,7 +36,7 @@ dotnet nuget add source "https://aiinfra.pkgs.visualstudio.com/PublicPackages/_p
 
 
 
-### 3. Clone the ONNX repo for Hugging Face:
+### 3. Clone the ONNX repo from Hugging Face:
 To get started, first you need to clone the repo of the ONNX model of Phi-3-mini either the 4k or the 128k tokens
 		. [microsoft/Phi-3-mini-4k-instruct-onnx · Hugging Face](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx)
 		. [microsoft/Phi-3-mini-128k-instruct-onnx · Hugging Face](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct-onnx)
